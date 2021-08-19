@@ -12,6 +12,15 @@
 
 # We will calculate the area of a circle
 
-radius = input('What is the radius of your circle?  ')
-answer = 3.14 * int(radius)**2
-print('The area of your circle is', answer)
+# radius = input('What is the radius of your circle?  ')
+# answer = 3.14 * int(radius)**2
+# print('The area of your circle is', answer)
+
+num1 = 3.14
+num2 = 202.902
+
+# PREVIOUS
+# print('num1 is', num1, 'and num2 is', num2)
+
+# FORMAT METHOD
+print('num 1 is {0} and num 2 is {1}'.format(num1, num2))
