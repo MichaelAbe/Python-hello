@@ -29,11 +29,19 @@
 # print(f'num 2 is {num1} and num 2 is {num2}')
 
 # IF STATEMENTS
-age = int(input('Enter your age:'))
-if age < 10:
-    print('You are under 10 years old')
-elif age < 20:
-    print('You are older than ten but less than twenty years old')
-else: 
-    print('You are an old person')
+# age = int(input('Enter your age:'))
+# if age < 10:
+#     print('You are under 10 years old')
+# elif age < 20:
+#     print('You are older than ten but less than twenty years old')
+# else: 
+#     print('You are an old person')
 
+veggie = input('Are you a vegetarian? (y/n)')
+
+if veggie == 'y':
+    print("Here is the vegetarian menu")
+elif veggie == 'n':
+    print("Here are is the meat eaters menu")
+else: 
+    print('Please try again')
