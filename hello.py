@@ -23,4 +23,7 @@ num2 = 202.902
 # print('num1 is', num1, 'and num2 is', num2)
 
 # FORMAT METHOD
-print('num 1 is {0} and num 2 is {1}'.format(num1, num2))
+# print('num 1 is {0} and num 2 is {1}'.format(num1, num2))
+
+# USING F-STRINGS
+print(f'num 2 is {num1} and num 2 is {num2}')
