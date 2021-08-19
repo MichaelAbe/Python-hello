@@ -28,7 +28,7 @@
 # USING F-STRINGS
 # print(f'num 2 is {num1} and num 2 is {num2}')
 
-# IF STATEMENTS
+# IF STATEMENTS-----------
 # age = int(input('Enter your age:'))
 # if age < 10:
 #     print('You are under 10 years old')
@@ -37,11 +37,17 @@
 # else: 
 #     print('You are an old person')
 
-veggie = input('Are you a vegetarian? (y/n)')
+# veggie = input('Are you a vegetarian? (y/n)')
 
-if veggie == 'y':
-    print("Here is the vegetarian menu")
-elif veggie == 'n':
-    print("Here are is the meat eaters menu")
-else: 
-    print('Please try again')
+# if veggie == 'y':
+#     print("Here is the vegetarian menu")
+# elif veggie == 'n':
+#     print("Here are is the meat eaters menu")
+# else: 
+#     print('Please try again')
+
+# FOR LOOPS-------------
+ballers = ['Kobe', 'MJ', 'Lebron', 'KD', 'Steph']
+
+for player in ballers:
+    print(player, "is a baller")
