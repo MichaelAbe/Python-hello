@@ -86,6 +86,15 @@
 #     # do something
 #     print(n)
 
-for n in range(3,20,4):
-    # first argument starting point, second arg ending point, third arg incriment 
-    print(n)
+# for n in range(3,20,4):
+#     # first argument starting point, second arg ending point, third arg incriment 
+#     print(n)
+
+burgers = ['beef', 'chicken', 'veggie', 'double', 'cookout style']
+
+# for n in range(len(burgers)):
+#     # len = length of array
+#     print(n, burgers[n])
+
+for n in range(len(burgers) -1, -1, -1):
+    print(n, burgers[n])
