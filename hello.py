@@ -46,16 +46,23 @@
 # else: 
 #     print('Please try again')
 
-# FOR LOOPS-------------
-ballers = ['Kobe', 'MJ', 'Lebron', 'KD', 'Steph']
+# # FOR LOOPS-------------
+# ballers = ['Kobe', 'MJ', 'Lebron', 'KD', 'Steph']
 
-# for player in ballers:
-#     print(player, "is a baller")
+# # for player in ballers:
+# #     print(player, "is a baller")
 
-for baller in ballers:
-    if baller == "Kobe":
-        print(f"{baller} is an all time Great")
-    elif baller == "MJ":
-        print(f'{baller} is the G.O.A.T')
-    else:
-        print(f'{baller} is great at basketball')
+# for baller in ballers:
+#     if baller == "Kobe":
+#         print(f"{baller} is an all time Great")
+#     elif baller == "MJ":
+#         print(f'{baller} is the G.O.A.T')
+#     else:
+#         print(f'{baller} is great at basketball')
+
+
+
+# array = [1, 2, 3, 4]
+
+# WHILE LOOPS ----------------
+
