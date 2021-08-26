@@ -82,6 +82,10 @@
 
 # RANGES ---------------------
 
-for n in range(5):
-    # do something
+# for n in range(5):
+#     # do something
+#     print(n)
+
+for n in range(3,20,4):
+    # first argument starting point, second arg ending point, third arg incriment 
     print(n)
